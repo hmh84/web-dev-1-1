@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(252, 59, 0);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+main {
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#section-1 {
+    background-color: rgb(255, 151, 119);
+}
+
+.review-item {
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    color: rgb(118, 118, 118);
+}
+
+footer {
+    padding: 1rem;
+}
+
+/* ----- STANDARDS START ----- */
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* ----- STANDARDS END ----- */
