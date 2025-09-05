@@ -1,6 +1,6 @@
 header {
-    background-color: rgb(252, 59, 0);
-    margin-bottom: 1rem;
+    background-color: rgb(255, 151, 119);
+
     padding: 1rem;
 }
 
@@ -8,29 +8,89 @@ main {
     margin-bottom: 1rem;
 }
 
+.project-card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: 15rem;
+    overflow: hidden;
+    width: 100%;
+
+    .project-image {
+        width: unset;
+        height: 12rem;
+    }
+
+    .project-title {
+        color: #000000;
+    }
+}
+
 section {
     margin-bottom: 1rem;
     padding: 1rem;
+
+    .section-title {
+        margin-bottom: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
 }
 
 #section-1 {
-    background-color: rgb(255, 151, 119);
+    background-color: rgb(252, 59, 0);
+    color: #ffffff;
+    min-height: 100vh;
+    padding-top: 25%;
+    text-align: center;
+}
+
+.review-list {
+    width: 100%;
+    max-width: 25rem;
 }
 
 .review-item {
     margin-bottom: 0.5rem;
     margin-left: 1rem;
     color: rgb(118, 118, 118);
+
+    .reviewer-name {
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 0.25rem;
+    }
 }
 
 footer {
     padding: 1rem;
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    a {
+        margin-right: 1rem;
+    }
 }
+
+/* ----- INHERITED START ----- */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----- INHERITED END ----- */
 
 /* ----- STANDARDS START ----- */
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
